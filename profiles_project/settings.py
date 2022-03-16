@@ -26,7 +26,8 @@ SECRET_KEY = 'h4#2(i36$1h!-k06@oc6r_4j5%w72vahj1vy^3(jlaymasm#ga'
 # When running on server, debug mode is disabled.
 DEBUG = bool(int(os.environ.get('DEBUG', 1)))
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['ec2-18-216-78-96.us-east-2.compute.amazonaws.com',
+                 '127.0.0.1']
 
 
 # Application definition
